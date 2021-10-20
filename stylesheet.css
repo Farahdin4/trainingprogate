@@ -50,43 +50,19 @@ header {
     margin-top: 20px;
 }
 
-.site-welcome {
-    position: fixed;
-    top: 0;
-    left: 0;
-    overflow: hidden;
-    width: 100%;
-    margin: auto;
-    background-color: yellow;
-}
-.site-tittle welcome-font {
-    height: 70px;
-    margin: 10px;
-}
-
 h1 {
-    font-family: cursive;
-    text-align: center;
-    font-size: 30px;
-    font-weight: bolder;   
-    color: brown;
-    transition: all 3s;
+    color:tomato;
 }
 
-@keyframes animated {
-    from {
-        font-size: 30px; 
-    }
-    to {
-        font-size: 40px;
-    }
+#banner {
+    animation: mymove 15s infinite;
+    background-color: rgba(240, 240, 32, 0.897);
+    width: 100%;
+    border: 2px solid transparent;
 }
 
-h1:hover { 
-    animation-name: animated;
-    animation-duration: 3s;
-    cursor: pointer;
-    animation-fill-mode: forwards;
+@keyframes mymove {
+    50% { text-indent: 77%; }
 }
 
 footer {
