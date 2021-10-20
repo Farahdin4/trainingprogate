@@ -50,8 +50,10 @@ header {
     margin-top: 20px;
 }
 
-h1 {
+p {
     color:tomato;
+    font-size: 25px;
+    font-weight: bolder;
 }
 
 #banner {
@@ -62,7 +64,7 @@ h1 {
 }
 
 @keyframes mymove {
-    50% { text-indent: 77%; }
+    50% { text-indent: 83%; }
 }
 
 footer {
